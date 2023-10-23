@@ -1,15 +1,22 @@
 {
-  "name": "@ampt-templates/javascript-starter",
+  "name": "okka-node",
   "version": "1.0.0",
-  "description": "Ampt JavaScript template",
-  "private": true,
+  "description": "okka-node.js",
   "main": "index.js",
-  "type": "module",
+  "author": "eoovve",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "start": "ampt"
+    "start": "node index.js"
   },
-  "ampt": {
-    "app": "javascript-starter",
-    "org": "cheerfulwolverinear67335935"
+  "dependencies": {
+    "axios": "^1.5.1",
+    "basic-auth": "^2.0.1",
+    "express": "^4.18.2",
+    "request": "^2.88.2",
+    "http-proxy-middleware": "^3.0.0-beta.0"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
